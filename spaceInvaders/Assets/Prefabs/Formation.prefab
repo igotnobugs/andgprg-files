@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3219262063426482140
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6283500768435265543}
+  - component: {fileID: 9100415142672162144}
+  m_Layer: 0
+  m_Name: Formation
+  m_TagString: Untagged
+  m_Icon: {fileID: -5397416234189338067, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6283500768435265543
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3219262063426482140}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &9100415142672162144
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3219262063426482140}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8999d770375ce5447b0146309b22e195, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  type: 0
+  health: 5
+  moveSpeed: 3
+  xBoundary: 11
+  bulletSpawn: {fileID: 0}
+  bullet: {fileID: 0}
+  fireRate: 0.5
+  deathExplosion: {fileID: 0}
+  hitExplosion: {fileID: 0}
+  amountToSpawn: 20
+  maxColumn: 10
+  maxRow: 2
+  cellSize: 2
+  cell: {fileID: 6893568548275835876, guid: b3fa9d33c3d5d0248ae1692b71d84fb4, type: 3}
+  cells: []
+  unit: {fileID: 151674, guid: fa1a6147d94db5c40982ce2502a66c1f, type: 3}
+  timeToMove: 1.5
+  moveDirection: {x: 0, y: 0, z: 0}
+  movingDown: 0
+  targetPosition: {x: 0, y: 0, z: 0}

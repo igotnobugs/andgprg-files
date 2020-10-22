@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f43e0383a755f24381a6f13ed29ce32, type: 3}
+  m_Name: BonusWave
+  m_EditorClassIdentifier: 
+  waveChance: 20
+  mainEnemyToSpawn: {fileID: 1845678454000639127, guid: 3d66d64cd0f7d6e4185c671b7c4ab2c0,
+    type: 3}
+  enemyCount: 2
+  divideToMiniWave: 1
+  miniWaveCountdown: 1
+  randomEnemySpawn: []
+  randomSpawnChance: 1
+  maxRandomSpawn: 1
+  waveMultiplier: 1
+  randomwMultiplier: 1
+  enemyStatMultiplier: 1
+  powerUpChance: 1
